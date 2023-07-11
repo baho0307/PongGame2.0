@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Program\Program.cpp" />
+    <ClCompile Include="src\Ball\Ball.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\Player\Player.cpp" />
     <ClCompile Include="src\Map\Map.cpp" />
@@ -134,6 +136,8 @@
     <ClCompile Include="src\Screen\Screen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Program\Program.h" />
+    <ClInclude Include="src\Ball\Ball.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="src\Player\Player.h" />
     <ClInclude Include="src\Map\Map.h" />
