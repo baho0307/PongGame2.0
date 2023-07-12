@@ -9,6 +9,7 @@
 class Screen
 {
 public:
+	Screen();
 	Screen(std::vector<std::vector<int>> *inf_addr, std::map<int, char> texture, int x = 0, int y = 0);
 	void				Update();
 	void				SetCoord(int x, int y);

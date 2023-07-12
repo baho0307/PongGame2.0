@@ -16,6 +16,10 @@ void Screen::Calc()
 			prevBuffer += texture[j];
 }
 
+Screen::Screen()
+{
+}
+
 Screen::Screen(std::vector<std::vector<int>> *inf_addr, std::map<int, char> texture, int x, int y)
 {
 	this->addr = inf_addr;

@@ -3,7 +3,7 @@
 
 Player::Player()
 {
-	x = (128 - pSize) / 2;
+	x = (120 - pSize) / 2;
 	vX = 0;
 }
 
