@@ -54,6 +54,7 @@ void Screen::Update()
 				std::cout << scrBuffer[i];
 			}
 		}
+		setCursorPosition(0, 0);
 	}
 }
 

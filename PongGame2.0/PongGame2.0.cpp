@@ -1,6 +1,11 @@
 ﻿#include <iostream>
+#include "src/Program/Program.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Program prg = Program();
+	while (true)
+	{
+    prg.Update();
+	}
 }
